@@ -1,0 +1,169 @@
+* {
+  margin-top: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg);
+    background-attachment: fixed;
+}
+.navbar {
+    width: 100%;
+    background-color: #4d91bb;
+    overflow: auto;
+    height: 60px;
+  }
+  .navbar li {
+    float: left;
+    padding: 20px 10px;
+    color: white;
+    font-size: 20px;
+    width: 17%;
+    text-align: center;
+    list-style: none;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar li:hover {
+    background-color: #23395d;
+  }
+  h1 {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    color: #4d91bb;
+    font-size: 3.5rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .fwbc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  blockquote {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: bold;
+  }
+  .center_image {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    margin: auto;
+    width: 800px; 
+    padding: 50px;
+    color: #33475b;
+  }
+  .center_image img {
+    float: left; 
+    width: 400px; 
+    margin-right: 20px
+  }
+  .link-center {
+    padding-top: 30px; 
+    margin-bottom: 150px;
+    font-size: 180%;
+  }
+  .link-center a {
+    color: blue;
+    font-size: 35px;
+  }
+  .link-center a:visited {
+    color: orange;
+    font-size: 35px;
+  }
+  .link-center a:hover {
+    color: magenta;
+    font-size: 35px;
+  }
+  .link-center a:active {
+    color: lime;
+    font-size: 35px;
+  }
+
+  #center_top {
+    color: #4d91bb;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  #cross-left {
+    float: left; 
+    width: 150px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #cross-right {
+    float: right; 
+    width: 150px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table {
+    margin-bottom: 60px;
+  }
+  table, tr, th, td {
+    margin-left: auto; 
+    margin-right: auto;
+    border: 2px dotted black;
+    border-collapse: collapse;
+  }
+  tr, th, td {
+    text-align: center;
+  }
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  th:hover {
+    background-color: #FFD580;
+  }
+  td:hover {
+    background-color: #FFD580;
+  }
+  .gallery-center {
+    float: left;
+  }
+  div.gallery {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+  }
+  footer {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+  }
+  div a {
+    font-size: 1rem;
+    color: gray;
+    font-weight: bold;
+  }
+  small {
+    font-size: 0.6rem;
